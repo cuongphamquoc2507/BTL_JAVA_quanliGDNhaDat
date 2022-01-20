@@ -38,24 +38,26 @@ public class GioiThieuView extends javax.swing.JDialog {
         btnClose = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("fjfjfjf");
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 0, 0));
         jLabel1.setText("QUẢN LÝ GIAO DỊCH NHÀ ĐẤT");
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 2, 18)); // NOI18N
-        jLabel2.setText("Hướng dẫn: TS. Hà Mạnh Đào");
+        jLabel2.setText("Hướng dẫn: TS. Nguyễn Thái Cường");
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        jLabel3.setText("Nhóm 15");
+        jLabel3.setText("Nhóm 13");
 
         jList1.setFont(new java.awt.Font("Times New Roman", 2, 18)); // NOI18N
         jList1.setModel(new javax.swing.AbstractListModel<String>() {
-            String[] strings = { "Phạm Thúy Hiền", "Nghiêm Thị Nhiên", "Nguyễn Thị Hoài Thu", "Lưu Vũ Tú Trinh" };
+            String[] strings = { "Phạm Quốc Cường", "Nguyễn Thanh Tùng", "Trần Thị Thu Hương", "Trần Thị Anh Thư", "Nguyễn Văn Hùng" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });
         jScrollPane1.setViewportView(jList1);
+        jList1.getAccessibleContext().setAccessibleName("gggg");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -66,10 +68,10 @@ public class GioiThieuView extends javax.swing.JDialog {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel3)
-                        .addGap(18, 18, 18)
+                        .addGap(46, 46, 46)
                         .addComponent(jScrollPane1))
                     .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(83, Short.MAX_VALUE))
+                .addContainerGap(55, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -101,7 +103,7 @@ public class GioiThieuView extends javax.swing.JDialog {
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 368, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(149, Short.MAX_VALUE))
+                .addContainerGap(164, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
